@@ -1,0 +1,356 @@
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1170px;
+    }
+    .off-main-menu{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+.container {
+    max-width: 970px;
+}
+
+/* header area start */
+    .primary-menu .menu-links {       
+        padding: 3rem 1rem;
+        font-size: 1.5rem;           
+    }
+    .primary-menu .btn {
+        padding: 0.6rem 2.5rem !important;
+    }
+    .search i {
+        font-size: 2.2rem !important;            
+        padding: 3rem 0 0 0.5rem;
+    }
+    .cart img {
+        padding: 3rem 0.8rem 0;
+    }
+}
+
+@media(max-width:991px){
+    .offer {
+        padding: 0px 8rem 8rem 8rem;
+}
+    .offer-info{
+        position: relative;
+        width: 100%;
+        padding: 4.5rem 3rem;
+    }
+
+    /* book area start */
+    .book-inner {
+        padding: 11rem 14rem;
+    }
+    /* news area start */
+    .news-tt h3 {
+        font-size: 2.2rem;
+    }
+
+    .news-tt .date {
+        font-size: 5rem;
+    }
+
+    .news-tt p {
+        width: 20%;
+    }
+
+    .news-tt .title {
+        margin-left: 2rem;
+    }
+
+    .news-item>p {
+        padding: 1rem 1rem 2.5rem 7rem;
+    }
+
+    .news-item>.btn {
+        margin-left: 7rem;
+    }
+
+    .btn-small {
+        padding: 0.6rem 2rem;
+    }
+    /* vedio area start */
+    .video-icon a {        
+        width: 7.2rem;
+        height: 7.2rem;   
+    }
+
+
+    /* footer area start */
+    footer{
+        padding: 8rem 0;
+    }
+    .footer-top {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+    .ftr-item .btn{
+        padding: 0.8rem 4rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    header .container{
+        padding: 0 4rem;
+        max-width: 100%;
+    }
+.container {
+    max-width: 750px;
+}
+/* header area start */
+header .logo {
+    padding: 2rem 1rem;
+}
+.primary-menu .menu-links {    
+    padding: 3rem 0.5rem;
+    font-size: 1.2rem; 
+}
+.primary-menu .btn {
+    padding: 0.3rem 1.2rem !important;
+    margin-right: 0;
+    margin-top: 2.3rem;
+}
+.search i {
+    font-size: 2rem !important;
+    padding: 3rem 0 0 0.5rem;
+}
+.cart img {
+    padding: 3rem 0.8rem 0;
+}
+
+
+  /* info area start */
+  .info .dgrid{
+    gap: 1rem;
+  }
+.info-item {
+    padding: 2rem 1rem 0 1rem;    
+  }
+
+  /* book area start */
+.book-inner{
+    padding: 11rem 5rem;
+  }
+
+}
+
+@media (max-width: 767px){
+.owl-theme .owl-dots .owl-dot span {
+    width: 7px;
+    height: 7px;
+}
+header {
+    background-color: #282b2e;
+    height: 6rem;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+header.active {
+    height: 6rem;
+}
+header .logo {
+    padding: 1rem;
+}
+nav{
+    width: 100%;
+    border-top: 1px solid #ddd;    
+    display: none;
+    top: 6rem;
+    position: absolute;
+    left: 0;
+    overflow-y: scroll;
+}
+
+.primary-menu{   
+    display: block;
+    background-color: #282b2e;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.primary-menu .menu-links{
+    color: #ffffff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.logo img {
+    max-width: 7rem;
+}
+
+.menu-toggler {
+    padding: .8rem 1.2rem;
+    height: 4rem;
+    width: 5rem;
+    margin-top: 1rem;
+    display: block;
+    z-index: 999;
+}
+
+.menu-toggler span {
+    height: .3rem;
+    width: 2.6rem;
+    background-color: #b98d36;
+    display: block;
+    margin-top: .4rem;
+}
+
+.menu-toggler.active {
+    background-color: #b98d36;
+    border-radius: .5rem;
+}
+.menu-toggler.active span {
+    background-color: #fff;
+}
+
+.primary-menu ul{
+    width: calc(100% - 3rem);
+    position: relative;
+    top: 0;
+    opacity: .8;
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+.primary-menu .btn {
+    padding: 0.5rem 1rem !important;
+    margin-left: 2rem;
+    display: inline-block;
+}
+.end-item{
+    display: inline-block;
+}
+.search i {
+    font-size: 2.2rem !important;
+    padding: 0 0 0 3rem;
+    color: #FFFFFF;
+    position: relative;
+    top: -0.7rem;
+}
+.primary-menu ul ul {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+
+/* hero area start */
+.hero{
+    top: 6rem;
+    padding: 16rem 0;
+}
+.hero,
+.about {    
+    margin: 0;
+    width: 100%;
+}
+ .hero .btn{
+    padding: 1.2rem 3rem;
+ }
+
+  /* about area start */
+  .about {
+      padding: 8rem 0;
+  }
+
+ /* offer area start */
+    .offer {
+        padding: 0 1rem 8rem 1rem;
+    }
+
+
+ /* info area start */
+ .info .dgrid {
+     gap: 2rem;
+     grid-template-columns: 1fr;
+ }
+
+ /* menu area start */
+ .menu{
+    padding: 11rem 0;
+ }
+ .off-main-menu{
+    grid-template-columns: 1fr;
+    grid-template-rows: unset;
+ }
+ .offerd-menu {
+     flex-wrap: wrap;
+ }
+ .offerd-menu a{
+    padding: 0.4rem 1.2rem;
+    font-size: 1.8rem;
+ }
+ .offerd-menu a span{ 
+    font-size: 1.2rem;
+ }
+ .offerd-menu a.active::before {
+    display: none;
+ }
+ /* book area start */
+  .book-inner {
+    background: #f1f1f1;
+    padding: 7rem 3rem;
+  }
+  .book{
+    background: none;    
+  }
+  .testimonial .sub-tt,
+  .book .sub-tt{
+    margin: .5rem 0 3rem;
+  }
+  .book-form input,
+  .book-form select{
+    font-size: 1.2rem;
+  }
+  .book-form .btn {
+      margin-top: 2rem;
+      padding: .6rem 4rem;  
+  }
+
+  /* testimonial area start */
+  .testimonial h4,
+  .testimonial p {      
+      font-size: 1.6rem;      
+      margin-bottom: 1rem;
+  }
+  .author .img-holder img {
+      width: 8rem;
+      height: 8rem;
+  }
+  button img {
+      width: 2.5rem;
+  }
+
+  /* footer area start */
+  .ftr-bottom {            
+      display: block;
+      text-align: center;
+  }
+  .ftr-icons {  
+      justify-content: center;
+      gap: .5rem;
+  }
+}
+@media(max-width: 480px){
+    .about{
+        padding: 3rem 0;
+    }
+    .hero{
+        padding: 8rem 0;
+    }
+
+    /* footer area start */
+    .ftr-top {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+        .ftr-item:nth-child(2),
+        .ftr-item:nth-child(3) {
+            padding-right: 0;
+        }
+}
+
+
